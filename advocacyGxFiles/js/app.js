@@ -271,6 +271,10 @@ function assignWeights(array) {
 }
 
 function loadNewVideo(videoId, saveThis) {
+
+    
+
+
     textTrackToShow = 0; //required for closed captioning persistance
     for (var i = 0; i < myPlayer.textTracks().length; i++) {
         //console.log("Texttrack " + i + " showing? " + myPlayer.textTracks()[i].mode);
@@ -316,9 +320,22 @@ function loadNewVideo(videoId, saveThis) {
             return;
         }
         makeVideoOverlay(name);
+
+
+
         if (name == config.startVideoName) {
             $("#backIcon").css("display", "none");
         }
+
+        //show the back button for all videos except the intros and the top-level category videos
+        if (videoId != "5506179083001" && videoId != "5506177660001" && videoId != "5506191650001" && videoId != "5506191658001" && videoId != "5506184905001" && videoId != "5506218959001") {
+            $("#backIcon").css("display", "inline-block");
+            
+        } else {
+            $("#backIcon").css("display", "none");
+           
+        }
+
         myPlayer.catalog.load(video);
     });
 }
