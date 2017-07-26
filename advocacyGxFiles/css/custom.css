@@ -1,0 +1,63 @@
+﻿/*Add your project specific css to this file*/
+
+body {
+    background-image: url("../image/Alight_arc_white.png") !important;
+    background-color: #333333 !important; }
+    
+    
+.main-header {
+  background-color: #000000 !important; }
+  
+
+.video-js .vjs-overlay-top-left {
+        position: relative;
+        width: 60%;
+        text-align: left;
+        color: black;
+        top: 45px !important;
+        left: 50px !important; }
+
+
+
+.subjecthead {
+    color: black !important;
+    position: relative;
+    font-size: 1em !important;
+    letter-spacing: 3px !important;
+    line-height: 1.7em;
+    font-weight: bold; !important;
+	text-transform: uppercase !important;
+
+	
+
+    }
+
+.subjecthead:after
+{
+    content:' ';
+	margin-bottom: 6px !important;
+	margin-top: 8px !important; 
+	display:block;
+    border:.5px solid black;
+}
+
+.question {
+    position: relative;
+    font-size: 1.2em !important;
+    line-height: 1.2em;
+    font-weight: bold; !important;
+       opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+    }
+    
+     /* 
+        #backIcon, #backIcon2 {
+        display: inline !important;
+    }
+
+  #infoIcon, #infoIcon2 {
+        display: inline !important;
+    }
+*/
