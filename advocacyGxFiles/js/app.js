@@ -224,6 +224,10 @@ function skip() {
     if (config.videos[config.currentVideoIndex].skipIntro && (myPlayer.currentTime() < config.videos[config.currentVideoIndex].skipIntro)) {
         myPlayer.currentTime(config.videos[config.currentVideoIndex].skipIntro);
         $("#skipIcon").css("display", "none");
+    } else { // if the skipIntro point has passed without the user clicking skip intro and if there is a wait segment then skip to the wait segment instead
+        myPlayer.currentTime(config.videos[config.currentVideoIndex].waitSegmentStart);
+        $("#skipIcon").css("display", "none");
+
     }
 }
 
@@ -319,6 +323,31 @@ function loadNewVideo(videoId, saveThis) {
         if (name == config.startVideoName) {
             $("#backIcon").css("display", "none");
         }
+
+
+        //hide/display the back icon
+        if (videoId != "5506179083001" && videoId != "5506177660001" && videoId != "5506191650001" && videoId != "5506191658001" && videoId != "5506184905001" && videoId != "5506218959001" && videoId != "5507907958001") {
+            $("#backIcon").css("display", "inline-block");
+
+        } else {
+            $("#backIcon").css("display", "none");
+
+        }
+
+
+        //hide/display the home icon
+        if (videoId != "5506179083001" && videoId != "5506177660001") {
+            $("#homeIcon").css("display", "inline-block");
+
+        } else {
+            $("#homeIcon").css("display", "none");
+
+        }
+
+        
+
+
+
         myPlayer.catalog.load(video);
     });
 }
