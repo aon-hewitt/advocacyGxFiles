@@ -11,7 +11,7 @@ body {
 
 .video-js .vjs-overlay-top-left {
         position: relative;
-        width: 60%;
+        width: 50%;
         text-align: left;
         color: black;
         top: 45px !important;
@@ -23,7 +23,7 @@ body {
     color: black !important;
     position: relative;
     font-size: 1em !important;
-    letter-spacing: 3px !important;
+    letter-spacing: 4px !important;
     line-height: 1.7em;
     font-weight: bold; !important;
 	text-transform: uppercase !important;
@@ -43,7 +43,7 @@ body {
 
 .question {
     position: relative;
-    font-size: 1.2em !important;
+    font-size: 1.3em !important;
     line-height: 1.2em;
     font-weight: bold; !important;
        opacity: 1;
