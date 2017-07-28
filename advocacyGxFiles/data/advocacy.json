@@ -47,7 +47,7 @@
           "class": "question clickable",
           "content": "Health Plans: Financial Considerations",
           "lastQuestion": false,
-          "start": 10.5,
+          "start": 10,
           "end": 30,
           "align": "top-left",
           "defaultAction": {
@@ -60,7 +60,7 @@
           "class": "question clickable",
           "content": "How the Health Plans Work",
           "lastQuestion": false,
-          "start": 11,
+          "start": 10,
           "end": 30,
           "align": "top-left",
           "defaultAction": {
@@ -69,17 +69,31 @@
           }
         },
         
-
-
+        
         {
-            "class": "question clickable",
+          "class": "question clickable",
           "content": "Understanding HSA",
           "lastQuestion": false,
-          "start": 11.5,
+          "start": 10,
           "end": 30,
           "align": "top-left",
           "defaultAction": {
             "jumpToName": "understandinghsa",
+            "weightings": []
+          }
+        },
+        
+
+
+        {
+          "class": "question clickable",
+          "content": "Next Steps",
+          "lastQuestion": false,
+          "start": 10,
+          "end": 30,
+          "align": "top-left",
+          "defaultAction": {
+            "jumpToName": "nextsteps",
             "weightings": []
           }
         }
@@ -143,9 +157,8 @@
           }
         },
 
-  
-        {
-         "class": "question clickable",
+           {
+          "class": "question clickable",
           "content": "Understanding HSA",
           "lastQuestion": false,
           "start": 10,
@@ -155,13 +168,25 @@
             "jumpToName": "understandinghsa",
             "weightings": []
           }
+        },
+        {
+         "class": "question clickable",
+          "content": "Next Steps",
+          "lastQuestion": false,
+          "start": 10,
+          "end": 30,
+          "align": "top-left",
+          "defaultAction": {
+            "jumpToName": "nextsteps",
+            "weightings": []
+          }
         }
       ]
     },
 
    
    
-   
+             
    
    
    
@@ -993,6 +1018,95 @@
             "weightings": []
           }
         }
+      ]
+    },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+     {
+      "name": "benefitsimpact",
+      "brightcoveId": "5506218959001",
+      "duration": 28,
+      "endBehavior": "",
+      "waitSegmentStart": 27,
+      "onscreenElements": [
+        {
+          "class": "subjecthead",
+          "content": "Benefits Impact",
+          "lastQuestion": false,
+          "start": 10,
+          "end": 57,
+          "align": "top-left",
+          "defaultAction": {
+            "weightings": []
+          }
+        },
+        {
+          "class": "question clickable",
+          "content": "What is the impact to my pension/401K now that I am part of this new company?",
+          "lastQuestion": false,
+          "start": 10,
+          "end": 30,
+          "align": "top-left",
+          "defaultAction": {
+            "jumpToName": "benefitsimpactQ1",
+            "weightings": []
+          }
+        },
+        {
+          "class": "question clickable",
+          "content": "I met my deductible under my old company’s medical plan, do I have to meet it again?",
+          "lastQuestion": false,
+          "start": 10,
+          "end": 30,
+          "align": "top-left",
+          "defaultAction": {
+            "jumpToName": "benefitsimpactQ2",
+            "weightings": []
+          }
+        },
+        
+
+        {
+          "class": "question clickable",
+          "content": "What happens to my PTO or sick days? Do I lose this time?",
+          "lastQuestion": false,
+          "start": 10,
+          "end": 30,
+          "align": "top-left",
+         "defaultAction": {
+            "jumpToName": "benefitsimpactQ3",
+            "weightings": []
+          }
+        }
+      ]
+    },
+    
+    
+    
+    
+    
+    
+        
+   
+   {
+      "name": "nextsteps",
+      "brightcoveId": "5507907958001",
+      "duration": 28,
+      "endBehavior": "",
+      "waitSegmentStart": 27,
+      "onscreenElements": [
+
       ]
     },
         
