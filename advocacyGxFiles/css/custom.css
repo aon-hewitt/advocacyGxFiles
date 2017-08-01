@@ -52,12 +52,13 @@ body {
    -webkit-transition: opacity .25s ease-in-out;
     }
     
-     /* 
-        #backIcon, #backIcon2 {
-        display: inline !important;
-    }
-
-  #infoIcon, #infoIcon2 {
-        display: inline !important;
-    }
-*/
+    .video-js .vjs-overlay-bottom-left {
+    bottom: 2.5em;
+    left: 48px !important;
+        }
+        
+    .text-primary {
+        
+       color: #000000 !important; }   
+            }   
+   
