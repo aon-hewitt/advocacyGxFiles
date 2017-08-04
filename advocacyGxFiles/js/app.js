@@ -148,7 +148,7 @@ videojs("myPlayerID").ready(function () {
                     dynamicHTML += "text: " + tt.activeCues[0].text + ", ";
                     dynamicHTML += "startTime: " + tt.activeCues[0].startTime + ",  ";
                     dynamicHTML += "endTime: " + tt.activeCues[0].endTime;
-                    //console.log(dynamicHTML);
+                    console.log(dynamicHTML);
                     jsonData = JSON.parse(tt.activeCues[0].text);
 
                     //Now handle the cue point processing.
@@ -157,16 +157,16 @@ videojs("myPlayerID").ready(function () {
                     //Other Custom timed events (from the vtt file) should have their handler code specified here
                     if ((jsonData.description == "hideNavBar") && (config.videos[config.currentVideoIndex].name == 'hraVsHsa')) {
                         $(".vjs-overlay.vjs-overlay-bottom-left.vjs-overlay-background").css("display", "none");
-                    } else if ((jsonData.description == "showDate") && (config.videos[config.currentVideoIndex].name == 'toDoList')) {
-                        var d = new Date();
-                        d.setDate(d.getDate() + 30);
-                        var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-                        var weekdayName = days[d.getDay()];
-                        var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-                        var monthName = months[d.getMonth()];
-                        var datestring = weekdayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
-                        var n = d.toDateString();
-                        $(".question.deadline").html(datestring);
+                    } else if ((jsonData.description == "showDate") && (config.videos[config.currentVideoIndex].name == 'nextsteps')) {
+                        //var d = new Date();
+                        //d.setDate(d.getDate() + 30);
+                        //var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+                        //var weekdayName = days[d.getDay()];
+                        //var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+                        //var monthName = months[d.getMonth()];
+                        //var datestring = weekdayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
+                        //var n = d.toDateString();
+                        $(".question.codestring").html(codeString);
                     } else if ((jsonData.description == "showNavBar") && (config.videos[config.currentVideoIndex].name == 'hraVsHsa')) {
                         $(".vjs-overlay.vjs-overlay-bottom-left.vjs-overlay-background").css("display", "block");
                     }
