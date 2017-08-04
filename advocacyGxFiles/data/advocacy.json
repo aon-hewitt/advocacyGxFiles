@@ -28,7 +28,7 @@
       "duration": 104,
       "endBehavior": "",
       "waitSegmentStart": 70,
-      "skipIntro": 8,
+      "skipIntro": 32,
       "onscreenElements": [
       
             {
@@ -699,7 +699,7 @@
           "class": "subjecthead",
           "content": "Understanding HSA",
           "lastQuestion": false,
-          "start": 12,
+          "start": 9,
           "end": 57,
           "align": "top-left",
           "defaultAction": {
@@ -711,7 +711,7 @@
           "content": "What is the difference between my FSA and this new HSA?",
           "lastQuestion": false,
           "event": "tallyAnswerC1",
-          "start": 12,
+          "start": 9,
           "end": 57,
           "align": "top-left",
           "defaultAction": {
@@ -724,7 +724,7 @@
           "content": "With high health care utilization, how could I speed up contributions to my HSA?",
           "lastQuestion": false,
           "event": "tallyAnswerC2",
-          "start": 12,
+          "start": 9,
           "end": 57,
           "align": "top-left",
           "defaultAction": {
@@ -737,7 +737,7 @@
           "content": "If I don’t need my HSA Contributions this year, can it be used in future years?",
           "lastQuestion": false,
           "event": "tallyAnswerC3",
-          "start": 12,
+          "start": 9,
           "end": 57,
           "align": "top-left",
           "defaultAction": {
@@ -752,7 +752,7 @@
           "class": "question clickable",
           "content": "Whose health care expenses can I pay for with my HSAs?  How is this the same or different than my HRA or FSA?",
           "lastQuestion": false,
-          "start": 12,
+          "start": 9,
           "event": "tallyAnswerC4",
           "end": 57,
           "align": "top-left",

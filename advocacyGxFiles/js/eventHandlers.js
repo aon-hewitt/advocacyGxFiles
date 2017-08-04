@@ -75,7 +75,7 @@ function tallyAnswerC1(d) {
     }
     defaultEventHandler(d);
 }
-function tallyAnswerc2(d) {
+function tallyAnswerC2(d) {
     if (codeString.search("C2") == -1) {
         codeString += "C2";
     }
