@@ -75,9 +75,9 @@ body {
 
 .question {
     position: relative;
-    font-size: 1.3em !important;
+    font-size: 1.2em !important;
     line-height: 1.2em;
-    font-weight: bold; !important;
+    font-weight: normal; !important;
        opacity: 1;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
