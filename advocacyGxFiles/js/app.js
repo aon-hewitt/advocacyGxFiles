@@ -231,12 +231,14 @@ function skip() {
     }
 }
 
+var navigatingBack;
 function back() {
     config = JSON.parse(configs.pop());
     if (config.videos[config.currentVideoIndex].name == config.startVideoName) {
     }
     try {
         loadNewVideo(config.videos[config.currentVideoIndex].name, false);
+        navigatingBack = true;
         $("#myPlayerIDContainer").css("display", "block");
 
     } catch (err) {
@@ -349,6 +351,10 @@ function loadNewVideo(videoId, saveThis) {
 
 
         myPlayer.catalog.load(video);
+        if (navigatingBack) {
+            myPlayer.currentTime(config.videos[config.currentVideoIndex].waitSegmentStart);//added as per megan
+            navigatingBack = false;
+        } 
     });
 }
 
