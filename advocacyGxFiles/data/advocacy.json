@@ -15,13 +15,7 @@
   "infoVideoEvent": "showSlideInfo",
   "showScrubber": true,
   "videos": [
-   
-   
-   
-   
-   
-   
-   {
+    {
       "name": "intro",
       "brightcoveId": "5506179083001",
       "tracks": "intro",
@@ -30,8 +24,7 @@
       "waitSegmentStart": 70,
       "skipIntro": 32,
       "onscreenElements": [
-      
-            {
+        {
           "class": "subjecthead",
           "content": "Learn More",
           "lastQuestion": false,
@@ -42,12 +35,11 @@
             "weightings": []
           }
         },
-        
         {
           "class": "question clickable",
           "content": "Health Plans: Financial Considerations",
           "lastQuestion": false,
-          "start": 37,
+          "start": 36,
           "end": 115,
           "align": "top-left",
           "defaultAction": {
@@ -55,12 +47,11 @@
             "weightings": []
           }
         },
-        
         {
           "class": "question clickable",
           "content": "How the Health Plans Work",
           "lastQuestion": false,
-          "start": 39.5,
+          "start": 38.5,
           "end": 115,
           "align": "top-left",
           "defaultAction": {
@@ -68,13 +59,11 @@
             "weightings": []
           }
         },
-        
-        
         {
           "class": "question clickable",
           "content": "Understanding HSA",
           "lastQuestion": false,
-          "start": 42,
+          "start": 41,
           "end": 115,
           "align": "top-left",
           "defaultAction": {
@@ -82,9 +71,6 @@
             "weightings": []
           }
         },
-        
-
-
         {
           "class": "question clickable",
           "content": "Next Steps",
@@ -99,26 +85,16 @@
         }
       ]
     },
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     {
-     "name": "returnIntro",
+      "name": "returnIntro",
       "brightcoveId": "5506177660001",
       "tracks": "returnIntro",
       "duration": 29,
       "endBehavior": "",
       "waitSegmentStart": 11,
       "onscreenElements": [
-       
-            {
+
+        {
           "class": "subjecthead",
           "content": "Learn More",
           "lastQuestion": false,
@@ -129,7 +105,7 @@
             "weightings": []
           }
         },
-        
+
         {
           "class": "question clickable",
           "content": "Health Plans: Financial Considerations",
@@ -142,8 +118,8 @@
             "weightings": []
           }
         },
-        
-         {
+
+        {
           "class": "question clickable",
           "content": "How the Health Plans Work",
           "lastQuestion": false,
@@ -156,7 +132,7 @@
           }
         },
 
-           {
+        {
           "class": "question clickable",
           "content": "Understanding HSA",
           "lastQuestion": false,
@@ -169,7 +145,7 @@
           }
         },
         {
-         "class": "question clickable",
+          "class": "question clickable",
           "content": "Next Steps",
           "lastQuestion": false,
           "start": 1,
@@ -182,17 +158,6 @@
         }
       ]
     },
-
-
-
-
-
-
-
-
-
-
-
     {
       "name": "financialconsiderations",
       "brightcoveId": "5506191650001",
@@ -205,7 +170,7 @@
           "class": "subjecthead",
           "content": "Financial Considerations",
           "lastQuestion": false,
-          "start": 10,
+          "start": 8.5,
           "end": 50,
           "align": "top-left",
           "defaultAction": {
@@ -217,7 +182,7 @@
           "content": "How do I figure out how much I’ll be paying with my new plan?",
           "lastQuestion": false,
           "event": "tallyAnswerA1",
-          "start": 10,
+          "start": 8.5,
           "end": 50,
           "align": "top-left",
           "defaultAction": {
@@ -230,7 +195,7 @@
           "content": "Why employer contribution to the HDHP is higher than the PPO and/or HMO options",
           "lastQuestion": false,
           "event": "tallyAnswerA2",
-          "start": 10,
+          "start": 8.5,
           "end": 50,
           "align": "top-left",
           "defaultAction": {
@@ -238,13 +203,12 @@
             "weightings": []
           }
         },
-
         {
           "class": "question clickable",
           "content": "Why consider Bronze or Silver HDHP options",
           "lastQuestion": false,
           "event": "tallyAnswerA3",
-          "start": 10,
+          "start": 8.5,
           "end": 50,
           "align": "top-left",
           "defaultAction": {
@@ -257,7 +221,7 @@
           "content": "Why change from a PPO/HMO? Why choose a higher deductible plan with an HSA?",
           "lastQuestion": false,
           "event": "tallyAnswerA4",
-          "start": 10,
+          "start": 8.5,
           "end": 50,
           "align": "top-left",
           "defaultAction": {
@@ -265,15 +229,12 @@
             "weightings": []
           }
         },
-
-
-
         {
           "class": "question clickable",
           "content": "Help me find lower cost RX and/or lower cost quality healthcare options",
           "lastQuestion": false,
           "event": "tallyAnswerA5",
-          "start": 10,
+          "start": 8.5,
           "end": 50,
           "align": "top-left",
           "defaultAction": {
@@ -283,23 +244,13 @@
         }
       ]
     },
-    
-    
-    
-    
-    
-       
-   
-   {
+    {
       "name": "financialconsiderationsQ1",
       "brightcoveId": "5506184896001",
       "duration": 64,
       "endBehavior": "",
       "waitSegmentStart": 39,
       "onscreenElements": [
-
-       
-       
         {
           "class": "",
           "content": "",
@@ -313,22 +264,14 @@
         }
       ]
     },
-    
-    
-    
-       
-   
-   {
+    {
       "name": "financialconsiderationsQ2",
       "brightcoveId": "5506169511001",
       "duration": 59,
       "endBehavior": "",
       "waitSegmentStart": 33,
       "onscreenElements": [
-
-       
-       
-              {
+        {
           "class": "",
           "content": "",
           "event": "",
@@ -342,22 +285,14 @@
         }
       ]
     },
-    
-    
-    
-        
-       
-   {
+    {
       "name": "financialconsiderationsQ3",
       "brightcoveId": "5506184898001",
       "duration": 66,
       "endBehavior": "",
       "waitSegmentStart": 37,
       "onscreenElements": [
-
-       
-       
-          {
+        {
           "class": "",
           "content": "",
           "event": "",
@@ -371,20 +306,13 @@
         }
       ]
     },
-    
-        
-        
-       
-   {
+    {
       "name": "financialconsiderationsQ4",
       "brightcoveId": "5506179075001",
       "duration": 55,
       "endBehavior": "",
       "waitSegmentStart": 34,
       "onscreenElements": [
-
-       
-       
         {
           "class": "",
           "content": "",
@@ -399,20 +327,13 @@
         }
       ]
     },
-    
-        
-        
-       
-   {
+    {
       "name": "financialconsiderationsQ5",
       "brightcoveId": "5506184899001",
       "duration": 40,
       "endBehavior": "",
       "waitSegmentStart": 21,
       "onscreenElements": [
-
-       
-       
         {
           "class": "",
           "content": "",
@@ -427,18 +348,6 @@
         }
       ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
     {
       "name": "howhealthplanswork",
       "brightcoveId": "5506191658001",
@@ -527,28 +436,13 @@
         }
       ]
     },
-    
-    
-    
-    
-    
-        
-    
-    
-    
-       
-   
-   {
+    {
       "name": "howhealthplansworkQ1",
       "brightcoveId": "5506181891001",
       "duration": 50,
       "endBehavior": "",
       "waitSegmentStart": 24,
       "onscreenElements": [
-
-       
-       
-       
         {
           "class": "",
           "content": "",
@@ -563,22 +457,13 @@
         }
       ]
     },
-    
-    
-    
-       
-   
-   {
+    {
       "name": "howhealthplansworkQ2",
       "brightcoveId": "5506191653001",
       "duration": 53,
       "endBehavior": "",
       "waitSegmentStart": 37,
       "onscreenElements": [
-
-       
-       
-         
         {
           "class": "",
           "content": "",
@@ -593,21 +478,13 @@
         }
       ]
     },
-    
-    
-        
-       
-   {
+    {
       "name": "howhealthplansworkQ3",
       "brightcoveId": "5506179079001",
       "duration": 51,
       "endBehavior": "",
       "waitSegmentStart": 46,
       "onscreenElements": [
-
-       
-       
-       
         {
           "class": "",
           "content": "",
@@ -622,19 +499,13 @@
         }
       ]
     },
-        
-        
-       
-   {
+    {
       "name": "howhealthplansworkQ4",
       "brightcoveId": "5506179081001",
       "duration": 57,
       "endBehavior": "",
       "waitSegmentStart": 55,
       "onscreenElements": [
-
-       
-         
         {
           "class": "",
           "content": "",
@@ -649,19 +520,13 @@
         }
       ]
     },
-        
-        
-       
-   {
+    {
       "name": "howhealthplansworkQ5",
       "brightcoveId": "5506179082001",
       "duration": 73,
       "endBehavior": "",
       "waitSegmentStart": 67,
       "onscreenElements": [
-
-       
-           
         {
           "class": "",
           "content": "",
@@ -676,17 +541,6 @@
         }
       ]
     },
-
-
-
-
-
-
-
-
-
-
-
     {
       "name": "understandinghsa",
       "brightcoveId": "5506184905001",
@@ -745,9 +599,6 @@
             "weightings": []
           }
         },
-
-
-
         {
           "class": "question clickable",
           "content": "Whose healthcare expenses can I pay for with my HSAs? How is this the same or different than my HRA or FSA?",
@@ -763,25 +614,13 @@
         }
       ]
     },
-    
-    
-    
-    
-    
-    
-        
-    
-       
-   
-   {
+    {
       "name": "understandinghsaQ1",
       "brightcoveId": "5506179084001",
       "duration": 52,
       "endBehavior": "",
       "waitSegmentStart": 26,
       "onscreenElements": [
-
-         
         {
           "class": "",
           "content": "",
@@ -796,19 +635,13 @@
         }
       ]
     },
-    
-    
-       
-   
-   {
+    {
       "name": "understandinghsaQ2",
       "brightcoveId": "5506169517001",
       "duration": 66,
       "endBehavior": "",
       "waitSegmentStart": 60,
       "onscreenElements": [
-
-       
         {
           "class": "",
           "content": "",
@@ -823,19 +656,13 @@
         }
       ]
     },
-    
-        
-       
-   {
+    {
       "name": "understandinghsaQ3",
       "brightcoveId": "5506179085001",
       "duration": 48,
       "endBehavior": "",
       "waitSegmentStart": 44,
       "onscreenElements": [
-
-       
-       
         {
           "class": "",
           "content": "",
@@ -850,18 +677,13 @@
         }
       ]
     },
-        
-        
-       
-   {
+    {
       "name": "understandinghsaQ4",
       "brightcoveId": "5506184904001",
       "duration": 72,
       "endBehavior": "",
       "waitSegmentStart": 69,
       "onscreenElements": [
-
-       
         {
           "class": "",
           "content": "",
@@ -876,94 +698,62 @@
         }
       ]
     },
-        
-        
-        
-        
-        
-    
-    
-    
-    
-    
-     
-  
-    
-    
-        
-   
-   {
+    {
       "name": "nextsteps",
       "brightcoveId": "5507907958001",
       "duration": 68,
       "endBehavior": "",
       "waitSegmentStart": 52,
-    "onscreenElements": [
-      {
-        "class": "subjecthead",
+      "onscreenElements": [
+        {
+          "class": "subjecthead",
           "content": "Speak to a Representative",
           "lastQuestion": false,
           "start": 13,
-       "end": 68,
+          "end": 68,
           "align": "top-left",
           "defaultAction": {
             "weightings": []
-        }
-      },      
-      
-      {
-        "class": "question",
-        "content": "123-456-7890",
-        "lastQuestion": false,
-        "start": 13,
-        "end": 68,
-        "align": "top-left",
-        "defaultAction": {
-          "weightings": []
-        }
-      },
-            
-      {
-        "class": "subjecthead2",
+          }
+        },
+
+        {
+          "class": "question",
+          "content": "123-456-7890",
+          "lastQuestion": false,
+          "start": 13,
+          "end": 68,
+          "align": "top-left",
+          "defaultAction": {
+            "weightings": []
+          }
+        },
+
+        {
+          "class": "subjecthead2",
           "content": "Your Reference Code",
           "lastQuestion": false,
           "start": 19,
-       "end": 68,
+          "end": 68,
           "align": "top-left",
           "defaultAction": {
             "weightings": []
-        }
-      },  
- 
-      
-      {
-        "class": "question codestring",
-        "content": "",
-        "lastQuestion": false,
+          }
+        },
+        {
+          "class": "question codestring",
+          "content": "",
+          "lastQuestion": false,
 
-        "start": 19,
-        "end": 68,
-        "align": "top-left",
-        "defaultAction": {
-          "weightings": []
+          "start": 19,
+          "end": 68,
+          "align": "top-left",
+          "defaultAction": {
+            "weightings": []
+          }
         }
-      }
-
-    ]
+      ]
     },
-        
-        
-        
-        
-        
-    
-    
-    
-    
-    
-    
-    
-    
     {
       "name": "topQuestions",
       "brightcoveId": "5456130368001",

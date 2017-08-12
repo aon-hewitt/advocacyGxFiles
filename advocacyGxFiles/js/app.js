@@ -169,6 +169,8 @@ videojs("myPlayerID").ready(function () {
                         $(".question.codestring").html(codeString);
                     } else if ((jsonData.description == "showNavBar") && (config.videos[config.currentVideoIndex].name == 'hraVsHsa')) {
                         $(".vjs-overlay.vjs-overlay-bottom-left.vjs-overlay-background").css("display", "block");
+                    } else if ((jsonData.description == "financialconsiderations") && (config.videos[config.currentVideoIndex].name == 'financialconsiderations')) {
+                        $("#skipIcon").css("display", "none");// this is an example of how to make the skip icon dissappear at a particualr time - wait segment start - you may want to apply this to all videos
                     }
                 } else {
                     //console.log("Cue point duration over");
@@ -224,10 +226,12 @@ function skip() {
     if (config.videos[config.currentVideoIndex].skipIntro && (myPlayer.currentTime() < config.videos[config.currentVideoIndex].skipIntro)) {
         myPlayer.currentTime(config.videos[config.currentVideoIndex].skipIntro);
         $("#skipIcon").css("display", "none");
-    } else { // if the skipIntro point has passed without the user clicking skip intro and if there is a wait segment then skip to the wait segment instead
+    } else if (config.videos[config.currentVideoIndex].waitSegmentStart && (myPlayer.currentTime() < config.videos[config.currentVideoIndex].waitSegmentStart)) { // if the skipIntro point has passed without the user clicking skip intro and if there is a wait segment that has not been reached then skip to the wait segment instead
         myPlayer.currentTime(config.videos[config.currentVideoIndex].waitSegmentStart);
         $("#skipIcon").css("display", "none");
 
+    } else {// if the skipIntro point has passed without the user clicking skip intro and if there is a wait segment that HAS been reached then skip to the end instead
+        $("#skipIcon").css("display", "none");
     }
 }
 
