@@ -353,7 +353,7 @@
       "brightcoveId": "5506191658001",
       "duration": 40,
       "endBehavior": "",
-      "waitSegmentStart": 35,
+      "waitSegmentStart": 15,
       "skipIntro": 8,
       "onscreenElements": [
         {
@@ -462,7 +462,7 @@
       "brightcoveId": "5506191653001",
       "duration": 53,
       "endBehavior": "",
-      "waitSegmentStart": 37,
+      "waitSegmentStart": 27,
       "onscreenElements": [
         {
           "class": "",
@@ -483,7 +483,7 @@
       "brightcoveId": "5506179079001",
       "duration": 51,
       "endBehavior": "",
-      "waitSegmentStart": 46,
+      "waitSegmentStart": 24,
       "onscreenElements": [
         {
           "class": "",
@@ -504,7 +504,7 @@
       "brightcoveId": "5506179081001",
       "duration": 57,
       "endBehavior": "",
-      "waitSegmentStart": 55,
+      "waitSegmentStart": 33,
       "onscreenElements": [
         {
           "class": "",
@@ -525,7 +525,7 @@
       "brightcoveId": "5506179082001",
       "duration": 73,
       "endBehavior": "",
-      "waitSegmentStart": 67,
+      "waitSegmentStart": 44,
       "onscreenElements": [
         {
           "class": "",
@@ -640,7 +640,7 @@
       "brightcoveId": "5506169517001",
       "duration": 66,
       "endBehavior": "",
-      "waitSegmentStart": 60,
+      "waitSegmentStart": 38,
       "onscreenElements": [
         {
           "class": "",
@@ -682,7 +682,7 @@
       "brightcoveId": "5506184904001",
       "duration": 72,
       "endBehavior": "",
-      "waitSegmentStart": 69,
+      "waitSegmentStart": 46,
       "onscreenElements": [
         {
           "class": "",

@@ -166,13 +166,7 @@ videojs("myPlayerID").ready(function () {
                         //var monthName = months[d.getMonth()];
                         //var datestring = weekdayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
                         //var n = d.toDateString();
-
-                        if (codeString.length > 0 && codeString.length <= 10) {
-                            $(".question.codestring").html(codeString);
-                        } else {
-                            $(".question.codestring").html("D");
-                        }
-
+                        $(".question.codestring").html(codeString);
                     } else if ((jsonData.description == "showNavBar") && (config.videos[config.currentVideoIndex].name == 'hraVsHsa')) {
                         $(".vjs-overlay.vjs-overlay-bottom-left.vjs-overlay-background").css("display", "block");
                     } else if ((jsonData.description == "financialconsiderations") && (config.videos[config.currentVideoIndex].name == 'financialconsiderations')) {
