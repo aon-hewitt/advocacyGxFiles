@@ -46,16 +46,79 @@ var textTrackToShow = 0;
  //Pulling data from local file
 
 
+switch (configFile) {
+    case null:
+        loadConfig("data/advocacy.json");
+        //$.getJSON("data/advocacy.json", function (result) {
+        //    config = result;
+        //    loadNewVideo(config.startVideoName, false);
+        //    if (config.showScrubber == false) {
+        //        $(".vjs-progress-control").css("display", "none");
+        //    } else {
+        //        $(".vjs-progress-control").css("display", "block");
+        //    }
+        //});
+        break
+    case "iris":
+        loadConfig("data/iris.json");
 
-$.getJSON("data/advocacy.json", function (result) {
-    config = result;
-    loadNewVideo(config.startVideoName, false);
-    if (config.showScrubber == false) {
-        $(".vjs-progress-control").css("display", "none");
-    } else {
-        $(".vjs-progress-control").css("display", "block");
-    }
-});
+        //$.getJSON("data/iris.json", function (result) {
+        //    config = result;
+        //    loadNewVideo(config.startVideoName, false);
+        //    if (config.showScrubber == false) {
+        //        $(".vjs-progress-control").css("display", "none");
+        //    } else {
+        //        $(".vjs-progress-control").css("display", "block");
+        //    }
+        //});
+        break
+    case "nancy":
+        loadConfig("data/nancy.json");
+
+        //$.getJSON("data/nancy.json", function (result) {
+        //    config = result;
+        //    loadNewVideo(config.startVideoName, false);
+        //    if (config.showScrubber == false) {
+        //        $(".vjs-progress-control").css("display", "none");
+        //    } else {
+        //        $(".vjs-progress-control").css("display", "block");
+        //    }
+        //});
+        break
+    default:
+        loadConfig("data/advocacy.json");
+
+        //$.getJSON("data/advocacy.json", function (result) {
+        //    config = result;
+        //    loadNewVideo(config.startVideoName, false);
+        //    if (config.showScrubber == false) {
+        //        $(".vjs-progress-control").css("display", "none");
+        //    } else {
+        //        $(".vjs-progress-control").css("display", "block");
+        //    }
+        //});
+}
+
+function loadConfig(fileUrl) {
+    $.getJSON(fileUrl, function (result) {
+        config = result;
+        loadNewVideo(config.startVideoName, false);
+        if (config.showScrubber == false) {
+            $(".vjs-progress-control").css("display", "none");
+        } else {
+            $(".vjs-progress-control").css("display", "block");
+        }
+    });
+}
+//$.getJSON("data/advocacy.json", function (result) {
+//    config = result;
+//    loadNewVideo(config.startVideoName, false);
+//    if (config.showScrubber == false) {
+//        $(".vjs-progress-control").css("display", "none");
+//    } else {
+//        $(".vjs-progress-control").css("display", "block");
+//    }
+//});
 
 //$.get("data/comprehensive.txt", function (result) {
 

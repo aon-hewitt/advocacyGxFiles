@@ -7,5 +7,5 @@ $.urlParam = function (name) {
     }
 }
 
-var prsn = $.urlParam('prsn');
+var configFile = $.urlParam('config');
 
