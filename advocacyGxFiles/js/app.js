@@ -43,7 +43,10 @@ var textTrackToShow = 0;
 //    }
 //});
 
-// Pulling data from local file
+ //Pulling data from local file
+
+
+
 $.getJSON("data/advocacy.json", function (result) {
     config = result;
     loadNewVideo(config.startVideoName, false);
@@ -53,6 +56,17 @@ $.getJSON("data/advocacy.json", function (result) {
         $(".vjs-progress-control").css("display", "block");
     }
 });
+
+//$.get("data/comprehensive.txt", function (result) {
+
+//    config = JSON.parse(JSON.minify(result));
+//    loadNewVideo(config.startVideoName, false);
+//    if (config.showScrubber == false) {
+//        $(".vjs-progress-control").css("display", "none");
+//    } else {
+//        $(".vjs-progress-control").css("display", "block");
+//    }
+//});
 
 videojs("myPlayerID").ready(function () {
 
