@@ -330,7 +330,7 @@ function loadNewVideo(videoId, saveThis) {
             $("#backIcon").css("display", "none");
         }
 
-
+        //this code is only needed for advocacy
         //hide/display the back icon
         if (name != "intro" && name != "returnIntro" && name != "financialconsiderations" && name != "howhealthplanswork" && name != "understandinghsa" && name != "benefitsimpact" && name != "nextsteps") {
             $("#backIcon").css("display", "inline-block");
@@ -340,7 +340,7 @@ function loadNewVideo(videoId, saveThis) {
 
         }
 
-
+        //this code is only needed for advocacy
         //hide/display the home icon
         if (name != "intro" && name != "returnIntro") {
             $("#homeIcon").css("display", "inline-block");
@@ -350,7 +350,7 @@ function loadNewVideo(videoId, saveThis) {
 
         }
 
-        
+
 
 
 
@@ -358,7 +358,7 @@ function loadNewVideo(videoId, saveThis) {
         if (navigatingBack) {
             myPlayer.currentTime(config.videos[config.currentVideoIndex].waitSegmentStart);//added as per megan
             navigatingBack = false;
-        } 
+        }
     });
 }
 
