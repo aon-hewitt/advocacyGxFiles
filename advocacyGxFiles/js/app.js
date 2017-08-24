@@ -332,7 +332,7 @@ function loadNewVideo(videoId, saveThis) {
 
 
         //hide/display the back icon
-        if (videoId != "5506179083001" && videoId != "5506177660001" && videoId != "5506191650001" && videoId != "5506191658001" && videoId != "5506184905001" && videoId != "5506218959001" && videoId != "5507907958001") {
+        if (name != "intro" && name != "returnIntro" && name != "financialconsiderations" && name != "howhealthplanswork" && name != "understandinghsa" && name != "benefitsimpact" && name != "nextsteps") {
             $("#backIcon").css("display", "inline-block");
 
         } else {
@@ -342,7 +342,7 @@ function loadNewVideo(videoId, saveThis) {
 
 
         //hide/display the home icon
-        if (videoId != "5506179083001" && videoId != "5506177660001") {
+        if (name != "intro" && name != "returnIntro") {
             $("#homeIcon").css("display", "inline-block");
 
         } else {
